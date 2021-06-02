@@ -1,0 +1,35 @@
+/*
+Fonts
+*/
+
+$raleway: 'Raleway',
+sans-serif;
+$raleway-regular: 400;
+$raleway-bold: 700;
+$open-sans: 'Open Sans',
+sans-serif;
+$open-sans-regular:400;
+
+/*
+Orden fuentes
+*/
+
+$primary-font: $raleway;
+$primary-font-regular: $raleway-regular;
+$primary-font-bold: $raleway-bold;
+$secondary-font: $open-sans;
+$secondary-font-regular: $open-sans-regular;
+
+/*
+fonts size
+*/
+
+$font-size-xxxxx-large: 3.125rem;
+$font-size-xxxx-large: 2.8125rem;
+$font-size-xxx-large: 2.5rem;
+$font-size-xx-large: 2.1875rem;
+$font-size-x-large: 1.875rem;
+$font-size-large: 1.25rem;
+$font-size-medium: 1rem;
+$font-size-small: 0.875rem;
+$font-size-x-small: 0.75rem;

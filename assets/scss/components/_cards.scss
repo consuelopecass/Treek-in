@@ -1,0 +1,40 @@
+.tarjeta {
+    color: $black;
+    padding: 20px 30px;
+    margin: 0 30px;
+    border: 1px solid $silverChalice;
+    background-color: $white;
+    &:hover {
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .3);
+        transition: box-shadow .5s cubic-bezier(.19, 1, .22, 1), -webkit-box-shadorw .5s cubic-bezier(.19, 1, .22, 1);
+    }
+    &__titulo,
+    &__precio {
+        font-family: $primary-font;
+        margin: 0;
+        padding: .5rem;
+    }
+    &__titulo {
+        font-weight: $primary-font-regular;
+        font-size: $font-size-large;
+    }
+    &__precio {
+        font-weight: $primary-font-bold;
+        font-size: $font-size-x-large;
+    }
+    &__linea {
+        border-color: $lavenderGray;
+    }
+    &__list {
+        min-height: 180px;
+        font-family: $secondary-font;
+    }
+    &__item {
+        font-size: $font-size-small;
+        line-height: 35px;
+    }
+    &__button {
+        padding-top: .5rem;
+        font-size: $font-size-medium;
+    }
+}
