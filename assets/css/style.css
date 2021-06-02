@@ -26,6 +26,14 @@ fonts size
   box-sizing: border-box;
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .button {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -488,6 +496,7 @@ fonts size
   background-size: contain;
   background-position: center;
   margin-left: 100px;
+  animation: fadeIn 1.5s ease-in-out infinite alternate;
 }
 .main .caracteristicas__info {
   width: 400px;
