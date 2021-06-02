@@ -49,6 +49,12 @@ fonts size
   margin: 0;
   padding: 15px;
 }
+.button:hover {
+  background-color: #77D1DD;
+}
+.button:focus {
+  background-color: #BABABA;
+}
 
 .tarjeta {
   color: #000;

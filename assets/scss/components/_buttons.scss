@@ -12,4 +12,10 @@
         margin: 0;
         padding: 15px;
     }
+    &:hover {
+        background-color: $middleBlue;
+    }
+    &:focus {
+        background-color: $gray;
+    }
 }
